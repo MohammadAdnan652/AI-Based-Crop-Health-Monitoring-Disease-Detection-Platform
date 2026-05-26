@@ -14,9 +14,7 @@ The system helps detect crop diseases, analyze plant health, and provide farming
 
 
 
-
-<img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/5a500e1c-02b3-4b29-9f1c-bf891ef75f00" />
-
+<img width="1708" height="903" alt="Screenshot 2026-05-25 220835" src="https://github.com/user-attachments/assets/dae27822-ad94-4a22-87a4-6077d732c8bf" />
 
 
 
