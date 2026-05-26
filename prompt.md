@@ -1,109 +1,143 @@
-
-
-## Context and Role
-
-You will be a Machine Learning Engineer tasked with creating and developing an AI-driven system for Crop Health Monitoring and Disease Detection in the context of smart agriculture solutions. The system should employ Computer Vision and Deep Learning algorithms on the captured images of the crops to identify the crop diseases, monitor the health conditions of the crops and offer treatment suggestions to the farmers in real-time.
-
-The platform needs to be scalable, responsive, production ready and support farmers to increase crop productivity and decrease disease losses.
+# AI-Based Crop Health Monitoring and Disease Detection Platform
 
 ---
 
-## Objective
+# Context and Role
 
-Create an end-to-end AI based agriculture platform that:
+You are a Machine Learning Engineer responsible for developing an AI-powered Crop Health Monitoring and Disease Detection Platform for smart agriculture solutions.
 
-- Supports uploading of crop and leaf images.
+The system should use Computer Vision and Deep Learning techniques to analyze crop and leaf images, detect diseases, monitor crop health conditions, and provide real-time treatment recommendations for farmers.
+
+The platform must be scalable, secure, responsive, production-ready, and optimized for real-world agricultural environments.
+
+---
+
+# Objective
+
+Create an end-to-end AI-based agriculture platform that:
+
+- Supports crop and leaf image uploads
 - Detects plant diseases using Deep Learning
-- Recognizes healthy plants vs unhealthy plants
-- Provides disease confidence scores are available.
+- Identifies healthy and unhealthy crops
+- Generates prediction confidence scores
 - Suggests treatments and fertilizers
-- Shows the analysis of the crops with an interactive dashboard
-- Monitors and predicts in real time
+- Provides real-time crop monitoring
+- Displays analytics using an interactive dashboard
+- Supports scalable deployment for multiple users
 
 ---
 
-## Machine Learning Requirements
+# Input Section
 
+The platform should accept:
 
-## Input Dataset 
+- Crop leaf images
+- Field crop images
+- Healthy crop images
+- Diseased crop images
+- Multiple crop categories
+- Real-time uploaded images
+- Historical crop monitoring records (optional)
+- Weather data integration (optional)
 
-Data 1 = <img width="660" height="343" alt="Data Input" src="https://github.com/user-attachments/assets/be03881a-32b2-493c-9b87-7cf5d9e642a3" />
+## Input Dataset
 
-Data 2 = <img width="660" height="343" alt="Data Input" src="https://github.com/user-attachments/assets/9e7cdb08-7127-4af0-9e3a-09461b89bbd8" />
+Data 1 = Healthy Crop Leaf Images
 
-. 
+Data 2 = Diseased Crop Leaf Images
 
-### Image Processing and Disease Detection
+Data 3 = Multiple Crop Disease Categories
+
+Data 4 = Real-Time Uploaded Images
+
+Data 5 = Crop Monitoring Data
+
+---
+
+# Machine Learning Requirements
+
+## Image Processing and Disease Detection
 
 Implement Computer Vision techniques to:
 
-- Analyzing an image and detecting disease.
-- Use Computer Vision techniques to:
-  - Recognize crop diseases using images of their leaves.
-  - Identify healthy and infected plants.
-  - Recognize various types of diseases
-  - Identify infected areas in pictures
-  - Estimate the level of confidence for predictions
+- Detect crop diseases from uploaded images
+- Recognize healthy and infected plants
+- Identify multiple disease categories
+- Detect infected regions in crop leaves
+- Generate confidence scores for predictions
+- Support real-time disease detection
 
-### Deep Learning Models
+---
+
+# Deep Learning Models
 
 Use Deep Learning models such as:
 
 - CNN
 - ResNet
 - EfficientNet
+- YOLO (Optional)
 
-The system can detect this (optional, for real-time detection).
+Preferred:
+
+- CNN for crop disease classification
+- ResNet for deep neural network accuracy improvement
+- EfficientNet for optimized performance and lower computational cost
+- YOLO for real-time disease detection and infected area localization
 
 ---
 
-## Data Preprocessing Requirements
+# Data Preprocessing Requirements
 
 The system must:
 
-- Resize and normalize pictures.Resize and normalize images.
-- Handle noisy/poor quality images.
+- Resize and normalize images
+- Handle noisy and low-quality images
 - Perform image augmentation
 - Balance imbalanced datasets
-- Provide support to more than one crop type
+- Support multiple crop types
 
-### Data Augmentation Techniques
+## Data Augmentation Techniques
 
-May include:
+Include:
 
 - Rotation
 - Flipping
 - Brightness adjustment
 - Zoom transformations
+- Contrast enhancement
+- Noise injection
 
 ---
 
-## Dashboard Requirements
+# Dashboard Requirements
 
 The farmer dashboard must include:
 
 - Disease prediction results
-- The status of the crops is presented in a visual manner.Visualization of crop health status.
+- Crop health visualization
 - Confidence score indicators
 - Historical crop analysis
 - Treatment recommendations
 - Upload history
-- Timely warning about severe diseases
+- Real-time disease alerts
+- Crop monitoring analytics
 
 ---
 
-## UI Requirements
+# UI Requirements
 
 The UI must be:
 
 - Fully responsive
 - Mobile-friendly
 - Accessible
-- Designed for low bandwidth rural areas
+- Optimized for low-bandwidth rural areas
+- Easy to use for farmers
 
 ---
 
-## Recommendation System Requirements
+# Recommendation System Requirements
 
 The platform should provide:
 
@@ -111,30 +145,40 @@ The platform should provide:
 - Fertilizer recommendations
 - Preventive measures
 - Irrigation guidance
-- Advice on farming in line with the weather (if available)
-
-###  Output Dataset 
-
-Data = <img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/0eb977a1-b545-4165-9076-777a73bc2d00" />
-
-Data = <img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/bd56a2e1-729d-46d0-bdb5-ac2e2bdbe9c5" />
-
-
-
-## Desired Response
-
-<img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/a6b43ed9-2737-4b5d-b7b0-d4d9ef7fe082" />
-
-<img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/adcaffcf-b702-44c2-a26d-387cad6b6c84" />
-
-
-
-
-
+- Weather-based farming advice (optional)
 
 ---
 
-## Frontend Requirements
+# Output Section
+
+The platform should generate:
+
+- Disease prediction results
+- Confidence scores
+- AI-generated treatment recommendations
+- Fertilizer suggestions
+- Crop health analytics
+- Real-time monitoring reports
+- Structured API responses
+- Error handling responses
+
+## Output Dataset
+
+Data 1 = Disease Prediction Results
+
+Data 2 = Confidence Score Outputs
+
+Data 3 = Treatment Recommendation Reports
+
+Data 4 = Crop Health Monitoring Analytics
+
+Data 5 = Structured JSON API Responses
+
+Data 6 = Real-Time Disease Alerts
+
+---
+
+# Frontend Requirements
 
 Use:
 
@@ -142,32 +186,44 @@ Use:
 - Tailwind CSS
 - Chart.js or Recharts
 
+Preferred:
+
+- React or Next.js for scalable and responsive frontend development
+- Tailwind CSS for modern and faster UI design
+- Chart.js or Recharts for interactive dashboards and crop analytics visualization
+
 ---
 
-## Backend Requirements
+# Backend Requirements
 
 Implement backend APIs to:
 
-- Securely upload crop images.
+- Securely upload crop images
 - Process ML predictions
 - Store prediction history
 - Manage farmer records
 - Return structured JSON responses
 
-This will focus on scalability and security from the back end.
+Preferred:
 
-### Backend Security and Scalability
+- Node.js + Express for scalable backend API development
+- FastAPI for high-performance Machine Learning API integration
+
+---
+
+# Backend Security and Scalability
 
 The backend must:
 
 - Validate uploaded images
 - Block malicious file uploads
-- Safely manage multiple requests at once.
+- Handle concurrent requests safely
 - Support scalable deployment
+- Secure API communication
 
 ---
 
-## Database Requirements
+# Database Requirements
 
 Store:
 
@@ -181,9 +237,14 @@ Use:
 
 - MongoDB or PostgreSQL
 
+Preferred:
+
+- MongoDB for flexible and scalable agricultural data storage
+- PostgreSQL for structured relational database management
+
 ---
 
-## Security and Validation Requirements
+# Security and Validation Requirements
 
 Ensure:
 
@@ -193,9 +254,15 @@ Ensure:
 - Rate limiting
 - Protection against malicious requests
 
+Preferred:
+
+- API Authentication for secure user access and data protection
+- Rate Limiting for preventing spam requests and server overload
+- Secure Image Validation for safe image upload handling
+
 ---
 
-## Performance Requirements
+# Performance Requirements
 
 Optimize for:
 
@@ -203,14 +270,7 @@ Optimize for:
 - Low API latency
 - Real-time disease detection
 - Efficient GPU utilization
-- Scalability for large agricultural datasets.
-
-The system should:
-
-- Support mobile devices
-- Use optimized ML models
-- Optimize large images for upload
-- Deal with bad network conditions nicely.
+- Scalability for large agricultural datasets
 
 The system should:
 
@@ -221,24 +281,21 @@ The system should:
 
 ---
 
-## Output Requirements
+# Output Requirements
 
 The final platform should provide:
 
-- The end platform should include:
-  - Correct crop disease diagnosis
-  - Monitoring in real time, crop health.
-  - AI-generated treatment recommendations
-  - Interactive farmer dashboard
-  - A secure system for uploading images.
-  - Structured API responses
-  - Graceful error handling
+- Accurate crop disease diagnosis
+- Real-time crop health monitoring
+- AI-generated treatment recommendations
+- Interactive farmer dashboard
+- Secure image upload system
+- Structured API responses
+- Graceful error handling
 
 ---
 
-## Error Handling and Documentation
-
-### Error Handling
+# Error Handling
 
 Handle:
 
@@ -247,8 +304,11 @@ Handle:
 - ML prediction failures
 - API request failures
 - Missing data scenarios
+- Network failures
 
-### Documentation
+---
+
+# Documentation Requirements
 
 Provide documentation for:
 
@@ -258,28 +318,74 @@ Provide documentation for:
 - API integration
 - Deployment instructions
 - Environment variables
+- Security configuration
 
 ---
 
-## Technology Stack
+# Technology Stack
 
-### Frontend
+## Frontend
 
 - React or Next.js
 - Tailwind CSS
 - Chart.js or Recharts
 
-### Backend
+Preferred:
+
+- React or Next.js for scalable and responsive frontend development
+- Tailwind CSS for modern and faster UI design
+- Chart.js or Recharts for interactive dashboards and crop analytics visualization
+
+---
+
+## Backend
 
 - Node.js + Express or FastAPI
 
-### Machine Learning
+Preferred:
+
+- Node.js + Express for scalable backend API development
+- FastAPI for high-performance Machine Learning API integration
+
+---
+
+## Machine Learning
 
 - Python
 - TensorFlow or PyTorch
 - OpenCV
 - Scikit-learn
 
-### Database
+Preferred:
+
+- Python for Machine Learning and AI model development
+- TensorFlow or PyTorch for Deep Learning model training
+- OpenCV for image processing and Computer Vision tasks
+- Scikit-learn for preprocessing and ML utilities
+
+---
+
+## Database
 
 - MongoDB or PostgreSQL
+
+Preferred:
+
+- MongoDB for flexible agricultural data storage
+- PostgreSQL for structured relational database management
+
+---
+
+## Deployment
+
+- Docker
+- AWS / Azure / GCP
+- Nginx
+- CI/CD Pipelines
+
+Preferred:
+
+- Docker for containerized deployment
+- AWS / Azure / GCP for scalable cloud infrastructure
+- Nginx for load balancing and server optimization
+- CI/CD pipelines for automated deployment workflows
