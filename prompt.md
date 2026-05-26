@@ -254,12 +254,15 @@ Ensure:
 - Rate limiting
 - Protection against malicious requests
 
-Preferred:
 
-- API Authentication for secure user access and data protection
-- Rate Limiting for preventing spam requests and server overload
-- Secure Image Validation for safe image upload handling
+# APIs Used in the Project
 
+- REST API for frontend and backend communication
+- JWT Authentication API for secure login and user authentication
+- Cloudinary API for crop image storage and management
+- Weather API for weather-based farming recommendations (optional)
+- TensorFlow Serving API for real-time ML model predictions
+- OpenCV API for image processing and disease detection
 ---
 
 # Performance Requirements
