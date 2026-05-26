@@ -4,23 +4,36 @@ A crop monitoring and disease detection platform built using AI, computer vision
 The system helps detect crop diseases, analyze plant health, and provide farming recommendations using deep learning models and real-time analytics.
 
 ---
-<img width="1879" height="895" alt="image" src="https://github.com/user-attachments/assets/dd890823-b046-4e32-9c8b-8aa63cb1b0c2" />
+
+<img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/07e89487-f872-426e-93ce-c6ec3e33cb54" />
 
 
 
-<img width="1461" height="977" alt="image" src="https://github.com/user-attachments/assets/3cb683c4-0805-4d9f-98be-33f281288c58" />
+<img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/4d66bbfa-71a1-45a1-a3d8-794e5213c469" />
 
 
 
-<img width="1594" height="958" alt="image" src="https://github.com/user-attachments/assets/4bc8a14b-6fc4-4ca9-851b-c1d9fa325ee6" />
+
+<img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/c77aa34d-8802-4615-ae39-ff8a5304edd4" />
 
 
 
-<img width="1708" height="903" alt="Screenshot 2026-05-25 220835" src="https://github.com/user-attachments/assets/4bc090f3-043e-4343-819d-3951476f7db4" />
 
 
 
-<img width="1538" height="941" alt="Screenshot 2026-05-25 220857" src="https://github.com/user-attachments/assets/a4c75a6f-88e6-47d1-98c9-2d986820b0ed" />
+<img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/5a500e1c-02b3-4b29-9f1c-bf891ef75f00" />
+
+
+
+
+
+<img width="1538" height="941" alt="Screenshot 2026-05-25 220857" src="https://github.com/user-attachments/assets/7c30bf15-9e22-4526-95ca-ad8eef9afd70" />
+
+
+
+
+
+
 
 
 
