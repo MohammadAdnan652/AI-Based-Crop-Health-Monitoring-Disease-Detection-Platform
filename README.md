@@ -5,7 +5,6 @@ The system helps detect crop diseases, analyze plant health, and provide farming
 
 ---
 
-# Project Link : https://id-preview-45e9df99--51007aa1-6dee-4a61-97c5-3a0dc7f9f718.lovable.app/
 ---
 
 <img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/07e89487-f872-426e-93ce-c6ec3e33cb54" />
