@@ -5,8 +5,6 @@ The system helps detect crop diseases, analyze plant health, and provide farming
 
 ---
 
----
-
 <img width="1461" height="977" alt="Output Response" src="https://github.com/user-attachments/assets/07e89487-f872-426e-93ce-c6ec3e33cb54" />
 
 
