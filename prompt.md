@@ -215,11 +215,11 @@ Preferred:
 
 The backend must:
 
-- Validate uploaded images
-- Block malicious file uploads
-- Handle concurrent requests safely
-- Support scalable deployment
-- Secure API communication
+- Validate uploaded images using image type, size, and format checking
+- Block malicious file uploads using secure file validation and malware filtering
+- Handle concurrent requests safely using asynchronous backend processing and load balancing
+- Support scalable deployment using Docker containers and cloud platforms like AWS or Azure
+- Secure API communication using HTTPS, JWT authentication, and encrypted API requests
 
 ---
 
@@ -227,12 +227,11 @@ The backend must:
 
 Store:
 
-- Farmer information
-- Uploaded crop images
-- Disease prediction history
-- Treatment recommendations
-- Crop monitoring logs
-
+- Store farmer information using secure database records and user management systems
+- Store uploaded crop images using cloud storage services like Cloudinary or AWS S3
+- Store disease prediction history for tracking previous crop analysis results
+- Store treatment recommendations for future reference and monitoring
+- Store crop monitoring logs for real-time analytics and historical crop health tracking
 Use:
 
 - MongoDB or PostgreSQL
@@ -302,13 +301,13 @@ The final platform should provide:
 
 Handle:
 
-- Invalid image uploads
-- Unsupported crop images
-- ML prediction failures
-- API request failures
-- Missing data scenarios
-- Network failures
-
+- Invalid image uploads using file type and size validation
+- Unsupported crop images using crop classification filtering
+- ML prediction failures using fallback responses and error logging
+- API request failures using try-catch handling and proper HTTP status codes
+- Missing data scenarios using input field validation
+- Network failures using retry mechanisms and user-friendly notifications
+- System crashes using exception handling and backend monitoring
 ---
 
 # Documentation Requirements
